@@ -4,3 +4,4 @@ $Valor = (float) $_POST['txtValor'];
 $Gratificacao = (float) $_POST['txtGratificacao'];
 $Resultado = ($Qntidade * $Valor) + $Gratificacao;
 echo "O resultado é: ", $Resultado;
+echo "O resultado não foi esse: ", $Resultado;
